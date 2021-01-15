@@ -3,7 +3,7 @@ public class UDPSenderMain {
         int RC;
 
         if(args.length < 3) {
-            System.err.println("Call me: UDPSender <address> <port> <file>");
+            System.err.println("Call me: UDPSenderMain <address> <port> <file>");
             System.exit(0);
         }
 
